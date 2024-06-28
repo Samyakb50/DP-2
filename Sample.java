@@ -1,7 +1,7 @@
-// Time Complexity :
-// Space Complexity :
-// Did this code successfully run on Leetcode :
-// Any problem you faced while coding this :
+// Time Complexity : O(2^(coins.length+ sum))
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : yes, time limit exceed
+// Any problem you faced while coding this : 
 
 
 // Your code here along with comments explaining your approach
@@ -20,6 +20,10 @@ int count(int coins[], int n, int sum)
 
 
 not working
+// Time Complexity :
+// Space Complexity :
+// Did this code successfully run on Leetcode :
+// Any problem you faced while coding this : yes
 int count(int coins[], int n, int sum)
 {
     int m = coins.length;
@@ -51,6 +55,10 @@ int count(int coins[], int n, int sum)
     }
 
 
+// Time Complexity : O(n*m)
+// Space Complexity : O(n*m)
+// Did this code successfully run on Leetcode : yes
+// Any problem you faced while coding this : no
 int count(int coins[], int n, int sum)
 {
     int m = coins.length;
@@ -70,6 +78,10 @@ int count(int coins[], int n, int sum)
 }
 
 
+// Time Complexity : O(n)
+// Space Complexity : O(n*m)
+// Did this code successfully run on Leetcode : yes
+// Any problem you faced while coding this : no
 public int minCost(int[][] costs){
     int n = costs.length;
 
